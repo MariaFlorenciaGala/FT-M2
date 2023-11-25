@@ -4,25 +4,35 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Música 8D</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body>
-
+<body class="row">
   <!-- Código del nav acá -->
-
-  <div class="container home">
-
+  <div class=".col">
+    <h2 class="title1">Música 8D</h2>
+    <div class="nav">
+      <ul>
+        <li>Inicio</li>
+        <li>Sobre Nosotros</li>
+        <li>Blog</li>
+        <li>Contacto</li>
+        <li>Registrarse</li>    
+    </div>
+  </div>
+  <div class="container home ">
+    
     <header class="intro">
       <!-- Código de header img acá -->
+      <img src="img/main-header.png" class="header col-sm-11 " alt="Imagen de cabecera">
 
       <h2>Nueva tecnología</h2>
 
@@ -30,7 +40,7 @@
         muy diferente a la original. ¿Aún no escuchaste? Sorprendete</p>
     </header>
 
-    <section class="music-images">
+    <section class="music-images  col-12 col-sm-6 col-md-3 " >
       <img src="img/auriculares.png" class="auricular" alt="Auriculares">
       <img src="img/tecnologia.png" class="tecnologia" alt="Tecnologia">
       <img src="img/ondas.png" class="ondas" alt="Ondas">
@@ -58,7 +68,7 @@
         <p>Hoy por hoy trabaja no solo a nivel musical sino a lo que sonido se refiere, innovando en álbumes pero
           también en instalaciones sonoras en conferencias y presentaciones.</p>
 
-        <div class="btn">
+        <div class="btn" id="btn">
           Registrate
         </div>
       </div>
