@@ -9,8 +9,7 @@ export const DECREMENT = 'DECREMENT';
 export const increment = () => {
   // Completa la funcion
         return {
-          type: INCREMENT,
-          payload
+          type: INCREMENT
         }
 
 };
@@ -18,7 +17,6 @@ export const increment = () => {
 export const decrement = () => {
   // Completa la funcion
     return {
-      type: DECREMENT,
-      payload
+      type: DECREMENT
     }
 };
